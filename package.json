@@ -3,6 +3,9 @@
   "version": "0.2.4",
   "description": "Authentication with Google accounts",
   "main": "index.js",
+  "browser": {
+    "passport-google-oauth20": "./mobile-mocks/passport-google-oauth20.js"
+  },
   "dependencies": {
     "@saltcorn/data": "^0.3.0",
     "passport-google-oauth20": "^2.0.0"
